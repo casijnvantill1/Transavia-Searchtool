@@ -84,6 +84,9 @@ def search_anywhere_partial(df, search_term):
 # Streamlit-app configureren
 st.title("Searchtool Transavia Aircraft Data")
 
+# Transavia-logo toevoegen
+st.image("data/hoi/transavia_logo.png", use_column_width=True)
+
 # Selecteer een bestand
 file_options = {
     "PH-HS": "data/hoi/PH-HX.csv",
