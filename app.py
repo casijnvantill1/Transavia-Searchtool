@@ -20,7 +20,7 @@ def search_anywhere_partial(df, search_term):
     return df[mask]
 
 # Streamlit-app configureren
-st.title("Interactie Zoektool voor CSV-bestanden")
+st.title("Interactieve Zoektool voor CSV-bestanden")
 
 # Upload CSV-bestand
 uploaded_file = st.file_uploader("Upload een CSV-bestand", type="csv")
