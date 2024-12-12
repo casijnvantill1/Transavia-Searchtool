@@ -82,7 +82,7 @@ def search_anywhere_partial(df, search_term):
     return df[mask]
 
 # Streamlit-app configureren
-st.title("Interactie Zoektool voor CSV-bestanden")
+st.title("Searchtool Transavia Aircraft Data")
 
 # Selecteer een bestand
 file_options = {
