@@ -86,8 +86,8 @@ st.title("Interactie Zoektool voor CSV-bestanden")
 
 # Selecteer een bestand
 file_options = {
-    "HS DataEXCELColom.csv": "data/hoi/HS DataEXCELColom.csv",
-    "HX DataEXCEL.csv": "data/hoi/HX DataEXCEL.csv"
+    "HS DataEXCELColom.csv": "data/hoi/PH-HX.csv",
+    "HX DataEXCEL.csv": "data/hoi/PH-HS.csv"
 }
 
 selected_file = st.selectbox("Kies een CSV-bestand om te doorzoeken:", list(file_options.keys()))
