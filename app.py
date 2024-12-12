@@ -27,8 +27,8 @@ st.image("data/hoi/Transavia_logo.png", use_container_width=True)
 
 # Selecteer een bestand
 file_options = {
-    "PH-HS": "data/hoi/PH-HX.csv",
-    "PH-HX": "data/hoi/PH-HS.csv"
+    "PH-HX": "data/hoi/PH-HX.csv",
+    "PH-HS": "data/hoi/PH-HS.csv"
 }
 
 selected_file = st.selectbox("Kies een CSV-bestand om te doorzoeken:", list(file_options.keys()))
