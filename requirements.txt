@@ -7,4 +7,4 @@ seaborn
 folium
 streamlit-folium
 plotly.express
-
+matplotlib.pyplot
